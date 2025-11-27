@@ -1,0 +1,43 @@
+const imagesPath = '../assets/images/';
+
+
+const Images = {
+  loginScreenImages: require(`${imagesPath}/loginScreen.png`),
+  otpScreenImage: require(`${imagesPath}/otpScreen.png`),
+  profilePlaceholder: require(`${imagesPath}/user.png`),
+  camera:require(`${imagesPath}/cameraIcon.png`),
+  avatar:require(`${imagesPath}/avatar.png`),
+  email:require(`${imagesPath}/email.png`),
+  idCard:require(`${imagesPath}/id-cards.png`),
+  location:require(`${imagesPath}/location.png`),
+  uploadIcon:require(`${imagesPath}/upload.png`),
+  aboutUs:require(`${imagesPath}/aboutUs.png`),
+  aboutUsMenu:require(`${imagesPath}/aboutUsMenu.png`),
+  navBackbtn:require(`${imagesPath}/navBackbtn.png`),
+  navBtn:require(`${imagesPath}/navBtn.png`),
+  logout:require(`${imagesPath}/logout.png`),
+  avatarDrawerIcon:require(`${imagesPath}/avatarDrawerIcon.png`),
+  cardIcon:require(`${imagesPath}/cardIcon.png`),
+  couponsIcon:require(`${imagesPath}/couponsIcon.png`),
+  phoneIcon:require(`${imagesPath}/phoneIcon.png`),
+  transactionsIcon:require(`${imagesPath}/transactionsIcon.png`),
+  pathIcon:require(`${imagesPath}/pathIcon.png`),
+  drawerHeaderbg:require(`${imagesPath}/drawerHeaderbg.png`),
+  minusCircleOutlined:require(`${imagesPath}/minus-circle-outlined.png`),
+  delete:require(`${imagesPath}/delete.png`),
+  clockIcon:require(`${imagesPath}/clockIcon.png`),
+  roadIcon:require(`${imagesPath}/roadIcon.png`),
+  triangleIcon:require(`${imagesPath}/triangleIcon.png`),
+  star:require(`${imagesPath}/star.png`),
+  gpsIcon:require(`${imagesPath}/gpsIcon.png`),
+  standard:require(`${imagesPath}/standard.png`),
+  van:require(`${imagesPath}/van.png`),
+  acessibility:require(`${imagesPath}/acessibility.png`),
+  messageIcon:require(`${imagesPath}/messageIcon.png`),
+  car_top:require(`${imagesPath}/car_top.png`),
+  cancelled:require(`${imagesPath}/cancelled.png`),
+  sos:require(`${imagesPath}/sos.png`),
+  completed:require(`${imagesPath}/completed.png`),
+  navBackbtn:require(`${imagesPath}/navBackbtn.png`)
+}
+export default Images;
