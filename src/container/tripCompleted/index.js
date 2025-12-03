@@ -10,11 +10,12 @@ import {
 } from "react-native";
 import StarRating from 'react-native-star-rating-widget';
 import Images from "../../constants/images";
+import { useNavigation } from "@react-navigation/native";
 
 const TripCompleted = () => {
     const [rating, setRating] = useState(0);
     const [feedback, setFeedback] = useState("");
-
+    const navigation = useNavigation();
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.content}>
@@ -45,7 +46,10 @@ const TripCompleted = () => {
                         value={feedback}
                         onChangeText={setFeedback}
                     />
-                    <TouchableOpacity style={styles.submitButton}>
+                    <TouchableOpacity style={styles.submitButton} onPress={() => navigation.reset({ 
+                            index: 0,
+                            routes: [{ name: 'Main' }]
+                        })}>
                         <Text style={styles.submitButtonText}>Submit</Text>
                     </TouchableOpacity>
                 </View>
